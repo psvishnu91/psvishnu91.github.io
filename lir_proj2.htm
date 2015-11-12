@@ -20,7 +20,7 @@
                     <div class = "container">
 
                             <a href = "index.htm" class = "navbar-brand active">Vishnu's Personal Site</a>
-                            
+
                             <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
 
                                     <span class = "icon-bar"></span>
@@ -35,7 +35,7 @@
                                             <li><a href = "resources/Docs/CV.pdf">CV </a></li>
                                             <li class = "dropdown active">
 
-                                                   
+
 
                                                 <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Academics <b class = "caret"></b></a>
 
@@ -47,7 +47,7 @@
 
                                                 </ul>
 
-                                           
+
 
                                             </li>
 
@@ -77,23 +77,23 @@
 
 								</div>
 
-								<div style="position: static; left: 10px; top: 10px;"> 
+								<div style="position: static; left: 10px; top: 10px;">
 
 									<iframe width="100%" height="500px" src="https://www.youtube.com/embed/s7UQKXhYSgU?list=UUTGjKbN_B5CrVVWF1x9M7DQ" frameborder="0" allowfullscreen></iframe>
 								</div>
 
 								<br>
 								<h4>Problem Statement</h4>
-								<p>	
-										
-										The  objective  of  the  project is to  use  the  noisy 
-										signals  from  an  IMU  containing  a  3  axis 
-										gyroscope and a 3 axis accelerometer to obtain a 
+								<p>
+
+										The  objective  of  the  project is to  use  the  noisy
+										signals  from  an  IMU  containing  a  3  axis
+										gyroscope and a 3 axis accelerometer to obtain a
 										robust  estimate  of  the  orientation  of  an  object
-										rotated  in 3D  space  and using the orientation  to 
-										stitch  a  panoramic  image of the photos taken by 
-										a  camera  mounted  on  the  object.  We  are  also 
-										provided ground truth  of the  orientations  from a 
+										rotated  in 3D  space  and using the orientation  to
+										stitch  a  panoramic  image of the photos taken by
+										a  camera  mounted  on  the  object.  We  are  also
+										provided ground truth  of the  orientations  from a
 										Vicon system.
 										<br>
 										<br>
@@ -102,64 +102,64 @@
 												<iframe width="100%" height="300" src="https://www.youtube.com/embed/qSZMNCoFijw?list=UUTGjKbN_B5CrVVWF1x9M7DQ" frameborder="0" allowfullscreen></iframe>
 											</div>
 											<div class = "col-lg-6">
-												
+
 													<h4>Description of approach</h4>
-													I  smoothed  out  the  raw  signals  from  the 
+													I  smoothed  out  the  raw  signals  from  the
 													accelerometer  to  reduce  the  high  frequency
-													noise  and  then  removed  the  bias  from  all  the 
-													input  signals.  I  multiplied  the  appropriate 
-													sensitivities  to  the  signals  which  I  obtained  by 
-													comparing  the  signals  with  the  ground  truth 
-													from  the  Vicon  data.  I  implemented  Unscented 
-													Kalman  Filters(UKF),  to  obtain  the  orientation 
-													of the image  which  is in the form of a rotation 
-													matrix,  from  which  one  can  extract  the  roll, 
-													pitch  and  yaw  angles.  Using  these  angles  I 
-													pasted the images, in the appropriate position on 
-													a  large  canvas,  initially  without  any 
-													transformation  and  then  considering  only  about 
-													the image plane. Both the techniques work only 
-													near  the  center  of  the  canvas.  Throughout  the 
-													project  I  referred  to  the  equations  on  the  "  Quaternion-based 
-													Unscented  Kalman  Filter  for  Orientation 
-													Tracking"  paper  by  Edgar  Kraft,  University  of 
+													noise  and  then  removed  the  bias  from  all  the
+													input  signals.  I  multiplied  the  appropriate
+													sensitivities  to  the  signals  which  I  obtained  by
+													comparing  the  signals  with  the  ground  truth
+													from  the  Vicon  data.  I  implemented  Unscented
+													Kalman  Filters(UKF),  to  obtain  the  orientation
+													of the image  which  is in the form of a rotation
+													matrix,  from  which  one  can  extract  the  roll,
+													pitch  and  yaw  angles.  Using  these  angles  I
+													pasted the images, in the appropriate position on
+													a  large  canvas,  initially  without  any
+													transformation  and  then  considering  only  about
+													the image plane. Both the techniques work only
+													near  the  center  of  the  canvas.  Throughout  the
+													project  I  referred  to  the  equations  on  the  "  Quaternion-based
+													Unscented  Kalman  Filter  for  Orientation
+													Tracking"  paper  by  Edgar  Kraft,  University  of
 													Bonn.
 														</div>
 										</div>
 											<br>
-								
-											
-								</p>						
-								
-								
+
+
+								</p>
+
+
 							</div>
 						</div>
 					</div>
-						
+
 				<!-------sidebar begin------->
 				<div class = "col-lg-3">
 		            <div class = "list-group">
-						
+
 						<a href = "lir_proj.htm" class = "list-group-item active">
-								
+
 								<img src="resources\Images\project\lir_logo.jpg" alt="Generic placeholder thumbnail" style="float:left" width="40" height="32">
 								<h4 class = "list-group-item-heading"> &nbsp Learning In Robotics</h4>
-								
-								
+
+
 		                </a>
-						
+
 						<a href = "ai_proj.htm" class = "list-group-item">
 							<img src="resources\Images\project\ai_logo.jpg" alt="Generic placeholder thumbnail" style="float:left" width="40" height="32">
 		                    <h4 class = "list-group-item-heading"> &nbsp Intro to AI </h4>
 
 		                </a>
-						
+
 						<a href = "cs_proj.htm" class = "list-group-item">
 							<img src="resources\Images\project\cs_logo.jpg" alt="Generic placeholder thumbnail" style="float:left" width="40" height="32">
 		                    <h4 class = "list-group-item-heading"> &nbsp Control Systems</h4>
 
 		                </a>
-						
+
 
 		                <a href = "cv_proj.htm" class = "list-group-item">
 							<img src="resources\Images\project\cv_logo.jpg" alt="Generic placeholder thumbnail" style="float:left" width="40" height="32">
@@ -181,36 +181,36 @@
 
 		                <a href = "undergrad_proj.htm" class = "list-group-item">
 								<img src="resources\Images\project\ug_logo.jpg" alt="Generic placeholder thumbnail" style="float:left" width="40" height="32">
-								
+
 								<h4 class = "list-group-item-heading" > &nbsp  Undergraduate Projects</h4>
-							
+
 		                </a>
-						
+
 						<a href = "research_proj.htm" class = "list-group-item">
 								<img src="resources\Images\project\research_logo.jpg" alt="Generic placeholder thumbnail" style="float:left" width="40" height="32">
-								
+
 								<h4 class = "list-group-item-heading"> &nbsp  Research & Intern </h4>
-							
+
 		                </a>
 		            </div>
 		        </div>
 				<!-------sidebar end------->
 
-					</div><!-----Sidebar end----->	
-					
-					
-				</div><!---end row>
-				
-			
-				
-			
-			
-			
-			</div><!--------ML Content End------>
-			
-		
+					</div><!-----Sidebar end----->
 
-			
+
+				</div><!---end row>
+
+
+
+
+
+
+			</div><!--------ML Content End------>
+
+
+
+
 		<!----Footer--->
 		<div class = "navbar navbar-default navbar-fixed-bottom">
 				<div class = "container">
@@ -222,13 +222,13 @@
 				</div>
 		</div><!----Footer end--->
 
- 
+
 
                 <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
                 <script src = "js/bootstrap.js"></script>
 
-               
+
 
         </body>
 
